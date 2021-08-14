@@ -1,13 +1,23 @@
 /* Importar fonte */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+/* Variáveis de cores*/
+:root 
+{ 
+    --texto: #f9f9f9;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
+    color: var(--texto);
+    background-image: linear-gradient(to bottom right, #628e75, #1a4855);
+    max-height: 100vh;
+    max-width: 100%;
+    overflow-y: hidden;
 }
 
 header{
-    
+    height: 25vh;
 }
 
 header nav{
@@ -15,31 +25,46 @@ header nav{
 }
 
 header nav .topo{
-
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
 }
 
 header nav .topo .logo{
-
-}
-
-header nav .topo .logo img{
-
-}
-
-header nav .topo div{
+    width: 60%;
+    height:12vh;
     
 }
 
-header nav .topo div ul{
+header nav .topo .logo img{
+    width: 8rem;
+    margin-left: 19%;
+    
+}
 
+header nav .topo div{
+    width: 40%;
+}
+
+header nav .topo div ul{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+   
 }
 
 header nav .topo div ul li{
-
+    font-size: 1.6rem;
+    cursor: pointer;
+    
 }
 
 header nav .topo div ul li .fab{
-   
+    color: var(--texto);
+
 }
 
 /* Conteúdo  Principal */
@@ -49,10 +74,16 @@ main{
 }
 
 main .container{
-
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
 }
 
 main .container .texto-botoes{
+    height: 70vh;
+    width: 30rem;
+
 
 }
 
@@ -61,34 +92,61 @@ main .container .texto-botoes .texto{
 }
 
 main .container .texto-botoes .texto p{
-
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
 main .container .texto-botoes .texto h2{
+    font-weight: 800;
+    font-size: 4rem;
+    margin: 0;
 
 }
 
 main .container .texto-botoes .texto span{
-
+    font-weight: 300;
+   
 }
 
 main .container .texto-botoes .botoes{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.6rem;
 
 }
 
-main .container .texto-botoes .botoes a{
+main .container .texto-botoes .botoes .btn {
+    padding: .6rem 1.6rem;
+    transform:skew(-16deg);
+    background-color: transparent;
+    border: 2px solid #628e75;
+    cursor: pointer; 
+    text-align: center;
+    transition: .7s ease-in-out;
+
+}
+main .container .texto-botoes .botoes .btn:hover {
+    background-color: #628e75;
+}
+
+main .container .texto-botoes .botoes .btn i {
     
 }
 
-main .container .texto-botoes .botoes a input{
-    
+main .container .texto-botoes .botoes .btn a{
+    font-weight: 500;
+    color: var(--texto);
+    transform:skew(0deg);
 }
+
 
 main .container .texto-botoes .img{
     
 }
 
-main .container .texto-botoes .ilustracao img{
+main .container .ilustracao img{
+    max-width:70vw;
+    max-height:60vh;
     
 }
 
