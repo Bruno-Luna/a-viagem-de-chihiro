@@ -115,9 +115,9 @@ main .container .texto-botoes .botoes{
 
 }
 
-main .container .texto-botoes .botoes .btn {
+main .container .texto-botoes .botoes button {
     padding: .6rem 1.6rem;
-    transform:skew(-16deg);
+    transform:skew(-30deg);
     background-color: transparent;
     border: 2px solid #628e75;
     cursor: pointer; 
@@ -125,18 +125,19 @@ main .container .texto-botoes .botoes .btn {
     transition: .7s ease-in-out;
 
 }
-main .container .texto-botoes .botoes .btn:hover {
+main .container .texto-botoes .botoes button:hover {
     background-color: #628e75;
 }
 
-main .container .texto-botoes .botoes .btn i {
-    
+main .container .texto-botoes .botoes button i {
+    color: var(--texto);
 }
 
-main .container .texto-botoes .botoes .btn a{
-    font-weight: 500;
+main .container .texto-botoes .botoes button a{
+    margin-left: .2rem;
     color: var(--texto);
-    transform:skew(0deg);
+    transform:skew(60deg);
+
 }
 
 
@@ -147,6 +148,7 @@ main .container .texto-botoes .img{
 main .container .ilustracao img{
     max-width:70vw;
     max-height:60vh;
+    
     
 }
 
