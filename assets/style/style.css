@@ -9,7 +9,6 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* font-size: 62.5%; */
     color: var(--texto);
     background-image: linear-gradient(to bottom right, #628e75, #1a4855);
     max-height: 100vh;
@@ -19,10 +18,6 @@ body{
 
 header{
     height: 25vh;
-}
-
-header nav{
-
 }
 
 header nav .topo{
@@ -41,12 +36,8 @@ header nav .topo .logo{
 header nav .topo .logo img{
     width: 8rem;
   
-    
 }
 
-header nav .topo div{
-    
-}
 
 header nav .topo div ul{
     height: 20vh;
@@ -54,7 +45,6 @@ header nav .topo div ul{
     flex-direction: row;
     align-items: center;
     gap: 3rem;
-   
 }
 
 header nav .topo div ul li{
@@ -70,9 +60,6 @@ header nav .topo div ul li .fab{
 
 /* Conteúdo  Principal */
 
-main{
-
-}
 
 main .container{
     height: 75vh;
@@ -85,12 +72,8 @@ main .container .texto-botoes{
     height: 70vh;
     width: 30rem;
 
-
 }
 
-main .container .texto-botoes .texto{
-
-}
 
 main .container .texto-botoes .texto p{
     font-weight: 600;
@@ -117,33 +100,30 @@ main .container .texto-botoes .botoes{
 }
 
 main .container .texto-botoes .botoes button {
-    padding: .6rem 1.6rem;
-    transform:skew(-30deg);
+    padding: .8rem 1.6rem;
     background-color: transparent;
     border: 2px solid #628e75;
     cursor: pointer; 
     text-align: center;
+    transform:skew(-30deg);
     transition: .7s ease-in-out;
-
 }
+
 main .container .texto-botoes .botoes button:hover {
     background-color: #628e75;
 }
 
 main .container .texto-botoes .botoes button i {
     color: var(--texto);
+    margin-right: .4rem;
 }
 
-main .container .texto-botoes .botoes button a{
+main .container .texto-botoes .botoes button a p{
+    display: inline;
     margin-left: .2rem;
     color: var(--texto);
-    transform:skew(60deg);
+    transform:skew(30deg);
 
-}
-
-
-main .container .texto-botoes .img{
-    
 }
 
 main .container .ilustracao img{
@@ -152,11 +132,30 @@ main .container .ilustracao img{
 }
 
 @media only screen and (min-width:600px) and (max-width:768px){
- 
-
+   
+    header nav .topo {
+    width: 98%;
 }
+    main .container .texto-botoes .texto h2 {
+    font-weight: 800;
+    font-size: 3rem;
+}  
 
+    main .container .texto-botoes .botoes button {
+     padding: 0;
+     width: 25vw;
+     height: 5vh;
 
+} 
+    main .container .ilustracao{
+    width:100%;
+}
+    main .container .ilustracao img{
+    width:100%;
+    height:50%;   
+    }
+    
+}
 
 @media only screen and (min-width:250px) and (max-width:599px){
     
