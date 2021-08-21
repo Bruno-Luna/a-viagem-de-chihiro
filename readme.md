@@ -8,9 +8,9 @@ A página teve muitos  desafios dentre eles posso elencar: a utilização  da pr
 
 *Novos aprendizados em HTML e CSS:*
 
-*  `target="_blank"`
+*  `target="_blank"` - Uma nova janela ou guia é solicitada para a exibição do conteúdo vinculado. No projeto apliquei em todos os ícones, botões e na logo.
 
-*  `transform:skew(-30deg);`
+*  `transform:skew(-30deg);` -\- define uma transformação que inclina um elemento no plano 2D, neste caso foi aplicado nos botões.
 
   
 
@@ -65,9 +65,9 @@ A página teve muitos  desafios dentre eles posso elencar: a utilização  da pr
 
 ### Desktop:
 
-![]()
+![](https://github.com/Bruno-Luna/a-viagem-de-chihiro/blob/master/assets/screenshot/desktop.PNG)
 
 ### Mobile:
 
-![]()
+![](https://github.com/Bruno-Luna/a-viagem-de-chihiro/blob/master/assets/screenshot/mobile.PNG)
 
